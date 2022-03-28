@@ -12,6 +12,7 @@ export default{
             name:'bgColor',
             title:'BgColor',
             type:'string'
+            
         },
         {
             name:'icon',
