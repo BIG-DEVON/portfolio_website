@@ -3,9 +3,13 @@ import './Navbar.scss'
 
 const Navbar = () => {
     return (
+        <nav> 
+        
         <div>
-            Navbar
+            <img src={Images.logo} alt="logo/>
         </div>
+
+     </nav>
     )
 }
 
