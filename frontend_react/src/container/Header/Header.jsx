@@ -30,6 +30,7 @@ const Header = () => {
       <div className='tag-cmp app__flex'>
       <p className='p-text '> Web Developer </p> 
       <p className='p-text '> Cloud Computing Engineer </p> 
+      <P> </P>
 
       </div>
 
@@ -41,6 +42,8 @@ const Header = () => {
         <motion.div 
          whileInView={{   opacity: [0, 1]  }}
         transition={{ duration:0.5, delayChildren: 0.5 }}
+
+
         className=   " app__header-img "
         
         >
