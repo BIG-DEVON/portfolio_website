@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
-import { Provider } from 'react';
+
 import './Header.scss'
 
 const Header = () => {
@@ -30,8 +30,8 @@ const Header = () => {
 
       <div className='tag-cmp app__flex'>
       <p className='p-text '> Web Developer </p> 
-      <p className='p-text '> Cloud Computing Engineer </p> 
-      <P> </P>
+      <p className='p-text '> Freelancer </p> 
+      
 
       </div>
 
@@ -49,6 +49,11 @@ const Header = () => {
         
         >
         <img src={images} alt="profile_bg" />
+
+          <motion.img >
+            
+          </motion.img>
+
 
 
   </motion.div>
