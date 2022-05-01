@@ -51,3 +51,42 @@
 
 }
 
+.app__header-badge {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+
+    .badge-cmp,
+    .tag-cmp {
+        padding:  1rem 2rem;
+        background: var(--white-color);
+        border-radius: 15px;
+        flex-direction: row;
+        width:  auto;
+
+
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .tag-cmp {
+    flex-direction: column;
+    margin-top: 3rem;
+
+    p {
+      width: 100%;
+      text-transform: uppercase;
+      text-align: right;
+      
+    }
+
+        
+    }
+
+
+}
+
+
+
