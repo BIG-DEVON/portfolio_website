@@ -5,10 +5,10 @@ import { images } from '../../constants';
 import './About.scss';
 
 const abouts = [
-  { title: 'Web Developmment' , description: 'I am a good web developer ' , imgUrl: images.about01},
-  { title: 'Web Design ' , description: 'I am a good web developer ' , imgUrl: images.about02},
-  { title: 'Frontend' , description: 'I am a good web developer ' , imgUrl:  images.about03},
-  { title: 'Web Animations' , description: 'I am a good web developer ' , imgUrl:images.about04},
+  { title: 'Web Developmment & Design' , description: 'I am a passionate frontend Developer ready to bring your imaginations to life.' , imgUrl: images.about01},
+  { title: 'Web  ' , description: 'I am a good web developer ' , imgUrl: images.about02},
+  { title: 'Frontend' , description: '  ' , imgUrl:  images.about03},
+  { title: 'Cloud Computing' , description: 'Up and ready to to provide soft solutions to clients tasks. ' , imgUrl:images.about04},
 ];
 
 
@@ -16,11 +16,11 @@ const About = () => {
   return (
     <>
       <h2 className='head-text '>
-    I Know that 
-    <span>Great Design</span>
-    <br/>
-      Means
-      <span>Great Business</span>
+         I Know that 
+      <span> Great Dev</span>
+      <br/>
+        Means
+      <span> Great Business</span>
       </h2>
 
 
