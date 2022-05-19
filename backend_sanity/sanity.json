@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "8tfj6yyb",
+    "dataset": "production"
+  },
   "project": {
     "name": "Devon_portfolio"
-  },
-  "api": {
-    "projectId": "g1daq1ab",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
